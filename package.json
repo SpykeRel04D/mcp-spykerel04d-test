@@ -1,0 +1,36 @@
+{
+  "name": "mcp-spykerel04d-test",
+  "version": "1.0.0",
+  "description": "Playground mcp test",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "run-p lint:*",
+    "fix:lint": "run-p fix:lint:*",
+    "lint:eslint": "eslint .",
+    "fix:lint:eslint": "eslint . --fix",
+    "lint:prettier": "prettier --check .",
+    "fix:lint:prettier": "prettier --write .",
+    "lint:tsc": "tsc --pretty false"
+  },
+  "keywords": [
+    "mcp"
+  ],
+  "author": "SpykeRel04D",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.16.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "npm-run-all2": "^8.0.4",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3"
+  }
+}
