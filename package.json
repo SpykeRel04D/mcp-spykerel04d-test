@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Playground mcp test",
   "main": "main.ts",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "run-p lint:*",
